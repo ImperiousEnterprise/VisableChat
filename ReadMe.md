@@ -1,6 +1,6 @@
 # Visable Chat
 
-This project is aimed at providing a small chat api to showcase springboot written in kotlin
+This project is aimed at providing a small chat api to showcase springboot written in kotlin.
 The Endpoints are:
 ```
 POST /users - Create User to chat
@@ -13,10 +13,10 @@ GET /users/{userId}/messages?sent=true - Get a list of a users sent messages
 In addition
 ```$xslt
 GET /users/{userId}/messages has few other abilities.
-You can sort messages in ascending or descending by addeding sort=(asc|desc) as a query param.(by default results are sorted asc order)
+```
+You can sort messages in ascending or descending by adding sort=(asc|desc) as a query param.(by default results are sorted asc order)
 Furthermore, you can get a list of messages a user has sent to or from another user by adding to or from as a query param.
 (i.e. /users/{userId}/messages?sent=true&to=<other_usedId> or /users/{userId}/messages?from=<other_usedId>
-```
 
 ## Getting Started
 
@@ -33,19 +33,19 @@ Here are few applications you will need to get started.
 
 Here are a series of commands to help you get up and running.
 
-First clone this repo
+1.) Clone this repo
 ```$xslt
-git clone 
+git clone https://github.com/ImperiousEnterprise/VisableChat.git
 ```
 
-Use docker to spin the postgresDB, rabbitmq, nginx, and the chat api itself.
+2.) Use docker to spin the postgresDB, rabbitmq, nginx, and the chat api itself.
 ```$xslt
 docker-compose up -d
 
 docker-compose down //This shutsdown the services
 ```
 
-In order to run this code through mvn or your IDE. You will need to spin up postgres and rabbitmq
+3.) In order to run this code through mvn or your IDE. You will need to spin up postgres and rabbitmq
 ```$xslt
 docker-compose up -d postgres rabbitmq
 ```
@@ -116,7 +116,7 @@ mvnw tests
 Pretty much any platform that supports java applications.
 
 ## Built With
-
+* [Spring-Boot](https://spring.io/projects/spring-boot) - 
 * [Java8](https://www.oracle.com/technetwork/java/javase/overview/java8-2100321.html) - JVM for Kotlin to run
 * [Maven](https://maven.apache.org/) - Dependency Management to package and test application
 * [PostgresSQL](https://www.postgresql.org/ ) - Datastore for Users and Messages table
