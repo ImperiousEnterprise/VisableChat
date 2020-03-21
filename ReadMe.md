@@ -1,6 +1,7 @@
 # Visable Chat
 
 This project is aimed at providing a small chat api to showcase springboot written in kotlin.
+
 The Endpoints are:
 ```
 POST /users - Create User to chat
