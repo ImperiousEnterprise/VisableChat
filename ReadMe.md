@@ -117,7 +117,7 @@ mvnw tests
 Pretty much any platform that supports java applications.
 
 ## Built With
-* [Spring-Boot](https://spring.io/projects/spring-boot) - 
+* [Spring-Boot](https://spring.io/projects/spring-boot) - Stand-alone, Production-grade Framework for Spring based Applications
 * [Java8](https://www.oracle.com/technetwork/java/javase/overview/java8-2100321.html) - JVM for Kotlin to run
 * [Maven](https://maven.apache.org/) - Dependency Management to package and test application
 * [PostgresSQL](https://www.postgresql.org/ ) - Datastore for Users and Messages table
