@@ -15,7 +15,7 @@ In addition
 GET /users/{userId}/messages has few other abilities.
 You can sort messages in ascending or descending by addeding sort=(asc|desc) as a query param.(by default results are sorted asc order)
 Furthermore, you can get a list of messages a user has sent to or from another user by adding to or from as a query param.
-(i.e. /users/{userId}/messages?to=<other_usedId> or /users/{userId}/messages?from=<other_usedId>
+(i.e. /users/{userId}/messages?sent=true&to=<other_usedId> or /users/{userId}/messages?from=<other_usedId>
 ```
 
 ## Getting Started

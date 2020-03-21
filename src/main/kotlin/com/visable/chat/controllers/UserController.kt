@@ -7,16 +7,10 @@ import com.visable.chat.repositories.UserRepository
 import org.springframework.amqp.core.Queue;
 import org.springframework.web.bind.annotation.*
 import org.springframework.amqp.rabbit.core.RabbitTemplate
-import org.springframework.boot.origin.TextResourceOrigin
-import org.springframework.dao.DataIntegrityViolationException
 import org.springframework.data.domain.Sort
-import org.springframework.http.HttpHeaders
 import org.springframework.http.HttpStatus
 import org.springframework.http.MediaType
 import org.springframework.http.ResponseEntity
-import org.springframework.util.MultiValueMap
-import org.springframework.validation.FieldError
-import org.springframework.validation.annotation.Validated
 import java.lang.Exception
 import javax.validation.Valid
 
