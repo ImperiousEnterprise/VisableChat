@@ -115,6 +115,13 @@ mvnw tests
 
 Pretty much any platform that supports java applications.
 
+## Built With
+
+* [Java8](https://www.oracle.com/technetwork/java/javase/overview/java8-2100321.html) - JVM for Kotlin to run
+* [Maven](https://maven.apache.org/) - Dependency Management to package and test application
+* [PostgresSQL](https://www.postgresql.org/ ) - Datastore for Users and Messages table
+* [RabbitMq](https://www.rabbitmq.com/ ) - Queue system to process messages to store in DB
+
 ## Authors
 
 * **Adefemi Adeyemi** - *Initial work* - [ImperiousEnterprise](https://github.com/ImperiousEnterprise)
